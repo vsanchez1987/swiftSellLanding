@@ -58,6 +58,7 @@ body {
   overflow: auto; }
   .background-image-holder:before {
     content: '';
+    height: 100vh;
     position: absolute;
     top: 0;
     right: 0;
