@@ -69,8 +69,8 @@ nav.nav-position {
   background-image: linear-gradient(to top, rgba(69, 69, 69, 0.75), rgba(57, 63, 72, 0.75)); }
 
 .nav-bar {
-  height: 55px;
-  max-height: 55px;
+  height: 70px;
+  max-height: 80px;
   line-height: 55px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
   .nav-bar .logo-module {
@@ -87,7 +87,8 @@ nav.nav-position {
     display: inline; }
     .nav-bar .vnu img {
       border-radius: 3px;
-      height: 59px;
+      margin-top: 9px;
+      height: 65px;
       width: 134px; }
 
 header {
