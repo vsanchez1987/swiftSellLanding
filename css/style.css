@@ -86,7 +86,9 @@ nav.nav-position {
   .nav-bar .vnu {
     display: inline; }
     .nav-bar .vnu img {
-      border-radius: 3px; }
+      border-radius: 3px;
+      height: 59px;
+      width: 134px; }
 
 header {
   height: 100vh;
