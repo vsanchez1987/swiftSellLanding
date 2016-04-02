@@ -132,7 +132,7 @@ header {
     }
   }
 
-.main-container {
+.main-container, .footer-container {
   clear: both;
 
   .cover {
@@ -142,6 +142,15 @@ header {
 
   .fullscreen {
     height: 100vh;
+  }
+
+  .footer-height{
+    height: 500px;
+    background-color: #34495e;
+    background-image: -webkit-linear-gradient(#000000, #000000);
+    background-image: -o-linear-gradient(#000000, #000000);
+    background-image: linear-gradient(#000000, #000000);
+    opacity: .6;
   }
 
       .v-align {

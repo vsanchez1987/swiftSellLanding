@@ -110,22 +110,29 @@ header {
     background-image: linear-gradient(#000000, #000000);
     opacity: .6; }
 
-.main-container {
+.main-container, .footer-container {
   clear: both; }
-  .main-container .cover {
+  .main-container .cover, .footer-container .cover {
     margin: 0;
     padding: 0; }
-  .main-container .fullscreen {
+  .main-container .fullscreen, .footer-container .fullscreen {
     height: 100vh; }
-  .main-container .v-align {
+  .main-container .footer-height, .footer-container .footer-height {
+    height: 500px;
+    background-color: #34495e;
+    background-image: -webkit-linear-gradient(#000000, #000000);
+    background-image: -o-linear-gradient(#000000, #000000);
+    background-image: linear-gradient(#000000, #000000);
+    opacity: .6; }
+  .main-container .v-align, .footer-container .v-align {
     position: relative;
     top: 20%;
     text-align: center; }
-    .main-container .v-align .caption, .main-container .v-align .hero-heading {
+    .main-container .v-align .caption, .main-container .v-align .hero-heading, .footer-container .v-align .caption, .footer-container .v-align .hero-heading {
       font-family: "Roboto", sans-serif;
       font-weight: 100;
       font-size: 2em; }
-      .main-container .v-align .caption .typed-cursor, .main-container .v-align .hero-heading .typed-cursor {
+      .main-container .v-align .caption .typed-cursor, .main-container .v-align .hero-heading .typed-cursor, .footer-container .v-align .caption .typed-cursor, .footer-container .v-align .hero-heading .typed-cursor {
         opacity: 1;
         -webkit-animation: blink 0.7s infinite;
         -moz-animation: blink 0.7s infinite;
@@ -151,61 +158,61 @@ header {
     opacity: 0; }
   100% {
     opacity: 1; } }
-      .main-container .v-align .caption .publications .not-yet-seen, .main-container .v-align .hero-heading .publications .not-yet-seen {
+      .main-container .v-align .caption .publications .not-yet-seen, .main-container .v-align .hero-heading .publications .not-yet-seen, .footer-container .v-align .caption .publications .not-yet-seen, .footer-container .v-align .hero-heading .publications .not-yet-seen {
         margin: 40px 0 0 0;
         font-size: 16px; }
-      .main-container .v-align .caption .publications img, .main-container .v-align .hero-heading .publications img {
+      .main-container .v-align .caption .publications img, .main-container .v-align .hero-heading .publications img, .footer-container .v-align .caption .publications img, .footer-container .v-align .hero-heading .publications img {
         width: 490px;
         height: 178px;
         margin-top: -10px;
         object-fit: cover; }
-    .main-container .v-align .text-color-white {
+    .main-container .v-align .text-color-white, .footer-container .v-align .text-color-white {
       color: white; }
-    .main-container .v-align .cta {
+    .main-container .v-align .cta, .footer-container .v-align .cta {
       background: rgba(32, 38, 47, 0.8);
       display: inline-flex;
       border-radius: 8px;
       padding: 13px;
       margin: 30px 0; }
-      .main-container .v-align .cta .cta-header {
+      .main-container .v-align .cta .cta-header, .footer-container .v-align .cta .cta-header {
         font-weight: 300;
         font-size: 20px;
         width: 334px;
         display: inline-block;
         vertical-align: middle;
         color: white; }
-      .main-container .v-align .cta .form-landing-page {
+      .main-container .v-align .cta .form-landing-page, .footer-container .v-align .cta .form-landing-page {
         display: inline-block; }
-        .main-container .v-align .cta .form-landing-page .sign-up {
+        .main-container .v-align .cta .form-landing-page .sign-up, .footer-container .v-align .cta .form-landing-page .sign-up {
           display: -webkit-flex;
           display: flex;
           flex-wrap: wrap;
           -webkit-flex-wrap: wrap;
           padding: 3%; }
-          .main-container .v-align .cta .form-landing-page .sign-up .flex-item {
+          .main-container .v-align .cta .form-landing-page .sign-up .flex-item, .footer-container .v-align .cta .form-landing-page .sign-up .flex-item {
             margin: 10px;
             flex: 1;
             -webkit-flex: 1;
             font-size: 16px;
             width: 260px;
             border-radius: 3px; }
-          .main-container .v-align .cta .form-landing-page .sign-up .home-submit {
+          .main-container .v-align .cta .form-landing-page .sign-up .home-submit, .footer-container .v-align .cta .form-landing-page .sign-up .home-submit {
             margin: 10px 10px 10px 0; }
-  .main-container .steps-height {
+  .main-container .steps-height, .footer-container .steps-height {
     height: 300px;
     margin-top: 100px; }
-    .main-container .steps-height .steps-headding {
+    .main-container .steps-height .steps-headding, .footer-container .steps-height .steps-headding {
       text-align: center;
       color: white;
       font-size: 2.5em;
       font-family: "Roboto", sans-serif;
       font-weight: 200; }
-    .main-container .steps-height .steps {
+    .main-container .steps-height .steps, .footer-container .steps-height .steps {
       padding-top: 40px;
       margin-bottom: 100px;
       display: flex;
       align-items: center; }
-      .main-container .steps-height .steps .num-one, .main-container .steps-height .steps .num-two, .main-container .steps-height .steps .num-three {
+      .main-container .steps-height .steps .num-one, .main-container .steps-height .steps .num-two, .main-container .steps-height .steps .num-three, .footer-container .steps-height .steps .num-one, .footer-container .steps-height .steps .num-two, .footer-container .steps-height .steps .num-three {
         width: 50px;
         height: 50px;
         background: #56d1c2;
@@ -217,7 +224,7 @@ header {
         padding-bottom: 27px;
         color: white;
         flex-direction: row; }
-      .main-container .steps-height .steps .card {
+      .main-container .steps-height .steps .card, .footer-container .steps-height .steps .card {
         position: relative;
         display: block;
         margin-top: 10px;
@@ -230,15 +237,15 @@ header {
         color: white;
         font-family: "Roboto", sans-serif;
         font-weight: 100; }
-        .main-container .steps-height .steps .card .card-title {
+        .main-container .steps-height .steps .card .card-title, .footer-container .steps-height .steps .card .card-title {
           font-family: "Roboto", sans-serif;
           font-weight: 100; }
-        .main-container .steps-height .steps .card .fa {
+        .main-container .steps-height .steps .card .fa, .footer-container .steps-height .steps .card .fa {
           color: #56D1C2;
           margin-right: 3px; }
-        .main-container .steps-height .steps .card .align-middle {
+        .main-container .steps-height .steps .card .align-middle, .footer-container .steps-height .steps .card .align-middle {
           vertical-align: super; }
-      .main-container .steps-height .steps .step-seperator {
+      .main-container .steps-height .steps .step-seperator, .footer-container .steps-height .steps .step-seperator {
         height: 5px;
         width: 60px;
         background-color: #56D1C2;
@@ -246,10 +253,10 @@ header {
         float: left;
         margin: 10em 0;
         border-radius: 4px; }
-  .main-container footer {
+  .main-container footer, .footer-container footer {
     top: 60px;
     display: inline-block; }
-    .main-container footer .text-center {
+    .main-container footer .text-center, .footer-container footer .text-center {
       color: white;
       text-align: center; }
 
