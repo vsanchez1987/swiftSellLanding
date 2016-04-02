@@ -146,17 +146,24 @@ header {
 
   .footer-height{
     height: 500px;
-    background-color: #34495e;
+    background-color: #7f8c8d;
     background-image: -webkit-linear-gradient(#000000, #000000);
     background-image: -o-linear-gradient(#000000, #000000);
     background-image: linear-gradient(#000000, #000000);
-    opacity: .6;
+    opacity: .7;
   }
 
       .v-align {
         position: relative;
         top: 20%;
         text-align: center;
+
+        .footer-heading{
+          width: 600px;
+          margin-left: 6em;
+          color: #fff;
+        }
+
 
         .caption, .hero-heading {
           font-family: "Roboto", sans-serif;
